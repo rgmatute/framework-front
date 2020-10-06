@@ -1,0 +1,11 @@
+# instalar
+npm install -g @vue/cli
+
+vue --version
+
+
+# crear proyecgo
+vue create nameproject
+
+# servir proyecto
+npm run serve

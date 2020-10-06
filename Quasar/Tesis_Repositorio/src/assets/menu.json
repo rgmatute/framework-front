@@ -1,0 +1,34 @@
+[
+    {
+      "title": "Inicio",
+      "caption": "quasar.dev",
+      "icon": "home",
+      "to": "/"
+    },
+    {
+      "title": "Mi Perfil",
+      "caption": "github.com/quasarframework",
+      "icon": "recent_actors",
+      "to": "/profile",
+      "privateItem": true
+    },
+    {
+      "title": "Mensajeria",
+      "caption": "chat.quasar.dev",
+      "icon": "chat",
+      "to": "/contacts"
+    },
+    {
+      "title": "Configuracion",
+      "caption": "chat.quasar.dev",
+      "icon": "settings",
+      "to": "setting",
+      "privateItem": true
+    },
+    {
+      "title": "Cerrar Sesion",
+      "caption": "chat.quasar.dev",
+      "icon": "power_off",
+      "to": "/accounts/logout"
+    }
+  ]

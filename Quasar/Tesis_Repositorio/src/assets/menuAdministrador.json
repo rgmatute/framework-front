@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Inicio",
+      "caption": "quasar.dev",
+      "icon": "home",
+      "to": "/"
+    },
+    {
+        "title": "Mantenimiento",
+        "caption": "quasar.dev",
+        "icon": "settings",
+        "to": "/mantenimiento"
+      },
+      {
+        "title": "Publicaciones",
+        "caption": "quasar.dev",
+        "icon": "assignment_turned_in",
+        "to": "/manager-publicaciones"
+      },
+    {
+      "title": "Cerrar Sesion",
+      "caption": "chat.quasar.dev",
+      "icon": "power_off",
+      "to": "/accounts/logout"
+    }
+]

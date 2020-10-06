@@ -1,0 +1,86 @@
+[
+    {
+        "type": "image",
+        "userName": "angel estevez",
+        "description": "descripcion de la publicacion",
+        "value": "https://cdn.quasar.dev/img/parallax2.jpg",
+        "autor": {
+            "avatar": "https://cdn.quasar.dev/img/avatar2.jpg",
+            "username": "angel estevez"
+        },
+        "vote": {
+            "like": 100,
+            "unlike": 10
+        }
+    },
+    {
+        "type": "message",
+        "userName": "angel estevez",
+        "description": "descripcion de la publicacion",
+        "value": "Hola buenas tardes estimados estudiantes, por favor revisar las tareas asignadas.",
+        "autor": {
+            "avatar": "https://cdn.quasar.dev/img/avatar2.jpg",
+            "username": "angel estevez"
+        },
+        "vote": {
+            "like": 100,
+            "unlike": 10
+        }
+    },
+    {
+        "type": "video",
+        "userName": "angel estevez",
+        "description": "descripcion de la publicacion",
+        "value": "https://www.youtube.com/embed/SVHZH9zF-lc",
+        "autor": {
+            "avatar": "https://cdn.quasar.dev/img/avatar2.jpg",
+            "username": "angel estevez"
+        },
+        "vote": {
+            "like": 100,
+            "unlike": 10
+        }
+    },
+    {
+        "type": "url",
+        "userName": "angel estevez",
+        "description": "descripcion de la publicacion",
+        "value": "http://www.orimi.com/pdf-test.pdf",
+        "autor": {
+            "avatar": "https://cdn.quasar.dev/img/avatar2.jpg",
+            "username": "angel estevez"
+        },
+        "vote": {
+            "like": 100,
+            "unlike": 10
+        }
+    },
+    {
+        "type": "pdf",
+        "userName": "angel estevez",
+        "description": "descripcion de la publicacion",
+        "value": "https://www.orimi.com/pdf-test.pdf",
+        "autor": {
+            "avatar": "https://cdn.quasar.dev/img/avatar2.jpg",
+            "username": "angel estevez"
+        },
+        "vote": {
+            "like": 100,
+            "unlike": 10
+        }
+    },
+    {
+        "type": "image",
+        "userName": "angel estevez",
+        "description": "descripcion de la publicacion",
+        "value": "https://cdn.quasar.dev/img/parallax2.jpg",
+        "autor": {
+            "avatar": "https://cdn.quasar.dev/img/avatar2.jpg",
+            "username": "angel estevez"
+        },
+        "vote": {
+            "like": 100,
+            "unlike": 10
+        }
+    }
+]

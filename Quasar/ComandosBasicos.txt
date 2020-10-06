@@ -1,0 +1,17 @@
+## INSTALL
+npm install -g @quasar/cli
+
+## CREAR PROYECTO
+quasar create <folder_name>
+
+## SERVIR PROYECTO
+quasar dev
+
+## GENERAR PROYECTO 
+quasar build
+
+## GENERAR PROYECTO PWA
+quasar build -m pwa
+
+## GENERAR PROYECTO ANDROID
+quasar build -m cordova -T android

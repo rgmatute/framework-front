@@ -1,0 +1,5 @@
+## LEVANTAR LOCAL
+npm run start
+
+## CONSTRUIR APP
+npm run-script build

@@ -1,0 +1,73 @@
+ npm install -g react-native-cli
+
+react-native init DemoEclipsoft
+
+
+react-native run-android
+
+adb devices
+
+adb connect 127.0.0.1:6200
+
+react-native run-android --deviceId 127.0.0.1:62001
+---------------------------------------------------------------------------
+React navigation
+---------------------------------------------------------------------------
+npm install @react-navigation/native
+
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+npm install @react-navigation/stack
+
+npm install --save react-native-elements
+
+npm install --save react-native-vector-icons  // recupera imagenes ó fuentes
+
+npm install @react-navigation/drawer
+
+// para poder usar icons de vector-icons
+npx react-native link
+---------------------------------------------------------------------------
+# Generating an upload key
+---------------------------------------------------------------------------
+$ keytool -genkeypair -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+
+# Setting up Gradle variables ( ~/.gradle/gradle.properties )
+
+# Copiar el fichero my-upload-key.keystore a la ruta --> android/app 
+
+
+MYAPP_UPLOAD_STORE_FILE=my-upload-key.keystore
+MYAPP_UPLOAD_KEY_ALIAS=my-key-alias
+MYAPP_UPLOAD_STORE_PASSWORD=*****
+MYAPP_UPLOAD_KEY_PASSWORD=*****
+android.enableAapt2=false
+
+# Adding signing config to your app's Gradle config ( android/app/build.gradle )
+...
+android {
+    ...
+    defaultConfig { ... }
+    signingConfigs {
+        release {
+            if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')) {
+                storeFile file(MYAPP_UPLOAD_STORE_FILE)
+                storePassword MYAPP_UPLOAD_STORE_PASSWORD
+                keyAlias MYAPP_UPLOAD_KEY_ALIAS
+                keyPassword MYAPP_UPLOAD_KEY_PASSWORD
+            }
+        }
+    }
+    buildTypes {
+        release {
+            ...
+            signingConfig signingConfigs.release
+        }
+    }
+}
+...
+
+
+## si llega a dar problema por el gradle ( instalar lo siguiente )
+npm install jetifier
+npx jetify
